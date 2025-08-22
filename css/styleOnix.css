@@ -1,0 +1,814 @@
+@charset "UTF-8";
+
+
+html,
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20pt;
+  color: #000;
+  font-weight: 300;
+  line-height: normal;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navbar-expand-sm .navbar-collapse {
+  justify-content: flex-end;
+  
+}
+
+.MobileShow{
+        display:none;
+}
+      
+.MobileNoshow{
+      display:block;
+}
+strong{
+  font-weight: 600;
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
+.cards {
+  position: absolute;
+  width: 20%;
+}
+
+.fade-in1 {
+	opacity: 1;
+  animation: fadeInOpacity 1s ease-in-out;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+
+}
+.fade-in2 {
+	opacity: 1;
+  animation: pulse 1.5s infinite;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+}
+.fade-in3 {
+	opacity: 1;
+  animation: fadeInOpacity 1s ease-in-out ;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+
+  100% {
+		opacity: 1;
+	}
+
+}
+
+ @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+/*--------GENERAL Styles*/
+
+.resaltado {
+  color: #4C07D3;
+}
+
+p {
+  font-style: normal;
+  line-height: 1.2;
+  font-size: 0.8em;
+}
+
+h1{
+  font-size: 2.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h2.Titulares {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #4C07D3;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 1em;
+  color: #2F0693;
+  font-weight: bold;
+}
+
+/*--------LOGOS Y LEGALES Styles*/
+
+.onixLogo {
+  position: absolute;
+  margin: auto;
+  left: 20px;
+  top: 0px;
+  z-index: 200;
+  width: 200px;
+  height: auto;
+}
+
+/*--------HEADER Styles*/
+
+header p {
+  text-align: center;
+}
+.navbar-nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.navbar > .container-fluid {
+  justify-content: flex-end !important;
+  font-size: 0.8rem;
+}
+.nav-item {
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+.nav-item a {
+  color: #282728 !important;
+}
+
+.nav-item a:hover {
+  color: #4C07D3 !important;
+}
+
+.nav-link {
+  border-right: 1px #c4c4c4 solid;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.nav-link:hover {
+  color: #4C07D3;
+}
+.nav-link:focus {
+  color: #4C07D3;
+}
+#empezar{
+  border-right: 1px transparent solid;
+}
+
+.hero-section {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  padding: 5em 0;
+  min-height: 500px;
+}
+.hero-section button{
+  color: #4C07D3;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 50px;
+}
+/*seccion 2*/
+
+.bg-gris {
+  background-color: #f7f7f7;
+  padding: 2em 0;
+}
+.BeneBox{
+  padding: .5em;
+}
+#beneficios .card {
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  min-height: 470px;
+  padding: .5em;
+}
+#beneficios .card-img-top {
+  width: 100px;
+  height: auto;
+  margin: 2em auto;
+
+}
+#beneficios .card-body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1em 1em 1em;
+}
+.lead{
+  text-align: center;
+  font-size: .8em;
+}
+
+
+/*seccion 3*/
+.Ademas {
+  padding: 3em 0;
+}
+.Ademas h2 {
+  text-align: center;
+  padding-top: 2em;
+}
+.nav-link > span {
+  color: #4C07D3;
+}
+
+.collapse .btn.btn-primary:active {
+  box-shadow: 0 0 10px #4C07D3;
+  outline: 0 0 10px #4C07D3;
+}
+
+.collapse .btn.btn-primary:focus {
+  box-shadow: 0 0 10px #4C07D3;
+}
+
+.btn.btn-primary:active {
+  box-shadow: 0 0 10px #4C07D3;
+}
+.nav-pills .nav-link {
+  border: 1px solid #707070 !important;
+  font-size: 0.8rem !important;
+  font-weight: normal;
+  border-right: none !important;
+}
+
+button {
+  border: none; 
+  background: none;
+  padding: 0; 
+}
+
+button img.img-fluid.flechas-collapse {
+  border: none;
+}
+
+.accordion-item {
+  width: 70%;
+  border: transparent;
+  margin: 20px auto;
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: 1px solid #707070 !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  border-radius: 1000px !important;
+  border: 1px solid #707070;
+  color: #262626 !important;
+  font-size: 0.7rem;
+}
+.accordion-button.active .numeral {
+  color: #fff;
+}
+
+/* Estilos para los botones activos */
+.accordion-button.active {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  color: #fff !important;
+  background-color: #4C07D3 !important;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  border: transparent !important;
+}
+
+
+.nav-link.active .numeral {
+  color: #fff;
+}
+
+.accordion-button .numeral {
+  margin-right: 10px;
+  color: #4C07D3;
+}
+
+li a,
+.accordion-body p a {
+  color: #4C07D3 !important;
+}
+
+.accordion-body p {
+  margin-bottom: 0;
+  font-size: 0.7em;
+}
+
+.accordion-button .numeral .active {
+  color: #4C07D3;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  box-shadow: none;
+}
+
+.cont-sec-dos p {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.nav-link.active .numeral {
+  color: #fff;
+}
+
+.seccion-desplegables {
+  align-self: top !important;
+}
+
+.desplegables {
+  align-self: center;
+  text-align: center;
+}
+
+.desplegables li {
+  margin-top: 20px;
+}
+
+.contenedor-desplegables {
+  padding: 1em;
+  border-radius: 45px;
+  margin-top: 15px;
+  min-height: 520px;
+}
+.contenedor-desplegables img{
+  width: 360px;
+  height: auto;
+}
+.accordion-body {
+  background: #f7f7f7;
+  margin-top: 20px;
+}
+
+.accordion-body p,
+.accordion-body ul {
+  color: #6e6b6b;
+}
+
+.accordion-body ul {
+  list-style-type: none;
+  justify-content: center;
+  padding-right: 1em;
+  padding-left: 1em !important;
+}
+
+.desplegables ul {
+  text-align: left;
+}
+
+btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #4C07D3;
+  border-color: #4C07D3;
+  box-shadow: 0;
+  box-shadow: 0;
+}
+
+.collapse.show .btn.btn-primary:active {
+  box-shadow: none;
+}
+
+.seccion-tabs-rincones {
+  margin-top: 50px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  color: #fff;
+  background-color: #4C07D3;
+  border-color: transparent;
+  box-shadow: none;
+  border-radius: 50px;
+  float: right;
+}
+
+img.flecha-desplegables {
+  border: none !important;
+}
+
+
+.collapse.show .btn.btn-primary:active {
+  background-color: #4C07D3;
+  border-color: #4C07D3;
+  color: #fff;
+}
+
+.tabs-con-banner {
+  margin-bottom: 250px !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #fff;
+  border-radius: 50px 0 0 50px;
+  color: #4C07D3;
+  font-weight: bold;
+  border-color: #4C07D3;
+  border-right-color: transparent;
+}
+
+.nav-pills .nav-link {
+  background-color: #fff;
+  color: #000;
+  border: 2px #000 solid;
+  padding: 10px 20px 10px 30px !important;
+  border-radius: 50px 0 0 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.2;
+  height: 90px;
+  border-right-color: transparent;
+}
+
+
+
+ol > li::marker {
+  font-weight: bold !important;
+  
+}
+
+.navbar-toggler {
+  font-size: 1.5em;
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler-icon {
+  width: 1em;
+  height: 1em;
+}
+.fixed-top {
+    padding-bottom: 25px;
+}
+
+/*fin seccion 5*/
+
+/*seccion 4*/
+
+.contact-section {
+background: linear-gradient(135deg, #4C07D3 0%, #2F0693 100%);
+padding: 100px 0;
+color: white;
+}
+          
+.form-container {
+              
+padding: 50px;
+ border-radius: 25px;
+backdrop-filter: blur(20px);
+box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+          
+.formulario {
+padding: 15px 25px;
+border-radius: 50px;
+ font-weight: 700;
+margin-bottom: 30px;
+display: inline-block;
+animation: pulse 2s infinite;
+}
+          
+.form-control-custom {
+background: rgba(255, 255, 255, 0.9);
+border: none;
+border-radius: 15px;
+padding: 15px 20px;
+margin-bottom: 20px;
+font-size: .8em;
+backdrop-filter: blur(10px);
+}
+          
+.form-control-custom:focus {
+background: white;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+          
+.form-check-custom {
+background: rgba(255, 255, 255, 0.1);
+padding: 15px;
+border-radius: 10px;
+margin-bottom: 15px;
+transition: all 0.3s ease;
+}
+          
+.form-check-custom:hover {
+background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-primary-custom {
+background: white;
+border: none;
+color: #2F0693;
+font-weight: 700;
+font-size: 1.2rem;
+padding: 15px 40px;
+border-radius: 50px;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all 0.3s ease;
+box-shadow: 0 10px 30px rgba(255, 255, 255, 0.4);
+animation: slideInUp 1s ease-out 0.6s both;
+}
+          
+.btn-primary-custom:hover {
+transform: translateY(-3px);
+box-shadow: 0 15px 40px rgba(255, 255, 255, 0.6);
+color: #2F0693;
+}
+/*seccion 4*/
+
+
+/*--------FOOTER Styles*/
+
+.footer {
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #707070;
+  padding-top: 2em;
+  vertical-align: top;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.footer .container-fluid {
+  margin: 0 auto;
+}
+
+
+/* ==========================================================================
+MEDIA QUERIES
+========================================================================== */
+
+/*-----------------------------------
+Main mobile
+-----------------------------------*/
+@media only screen and (min-width: 230px) and (max-width: 767px) {
+  .navbar-nav {
+    border-radius: 10px;
+    float: right;
+    width: 60%;
+  }
+  .navbar-collapse {
+    text-align: right;
+    margin-top: 10px;
+  }
+  h1{
+    font-size: 1.2rem;
+    padding-bottom: 1em;
+  }
+  .hero-section {
+    padding: 5em 0 2em 0;
+    min-height: 600px;
+  }
+  .hero-section button {
+      margin-top: 1em;
+      font-size: .8em;
+  }
+  .lead {
+    font-size: .7em;
+    padding-bottom: 1em;
+  }
+  
+  .footer {
+    position: relative;
+    padding-bottom: 1em;
+  }
+ 
+  .nav-link {
+    border: none;
+    font-size: 0.8em;
+  }
+ 
+  .BeneBox {
+    padding: 0.2em;
+  }
+  #beneficios .card {
+    min-height: 370px;
+
+    padding: .5em;
+  }
+  #beneficios .card-img-top {
+      width: 80px;
+      margin: 1em auto;
+  }
+  #beneficios .card-body {
+    align-items: center;
+}
+  .card-body {
+    padding: 0.5em;
+  }
+  p {
+    font-size: 0.78em;
+  }
+  h2.Titulares {
+    font-size: 1em;
+  }
+
+  .img-car {
+    position: relative;
+    top: 0;
+    margin: auto;
+  }
+  .tab-pane img {
+    width: 80%;
+    height: auto;
+  }
+  .nav-pills .nav-link {
+    border-radius: 100px !important;
+    border-right: 1px solid #707070 !important;
+    text-align: center;
+    font-size: 0.7em !important;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 20px !important;
+  }
+  .Ademas h2 {
+    padding-top: 0em;
+  }
+  .accordion-item {
+    width: 95%;
+  }
+  .accordion-button {
+    font-size: 0.8em !important;
+    padding: 1em;
+    color: #4C07D3 !important;
+    padding-left: 2em;
+    font-weight: bold;
+  }
+  .accordion-button.collapsed {
+    color: #212529 !important;
+  }
+  .accordion-body p,
+  .accordion-body ul li {
+    font-size: 0.6em;
+  }
+  .accordion-body {
+    margin-top: 0px;
+  }
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .ShowMob {
+    display: block;
+  }
+  
+  .mb-4 {
+    margin-bottom: 0 !important;
+  }
+  .HDMobile {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+  }
+  .MobileTitular {
+    display: block;
+    font-size: 1em;
+    padding-top: 3.5em;
+  }
+  .accordion-body img {
+    width: 90%;
+    height: auto;
+  }
+  .accordion-header {
+    font-size: 0.8em;
+  }
+  .accordion-body {
+    background-color: transparent;
+  }
+  .Ademas {
+    background-image: none;
+  }
+  
+  dl,
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+  .form-control-custom {
+    font-size: .6em;
+  }
+  
+  .btn-primary-custom {
+      font-size: .8em;
+      animation: slideInUp 1s ease-out 0.6s both;
+  }
+  label{
+    font-size: .7em !important;
+  }
+  .form-container h2{
+    font-size: 1.2em;
+  }
+}
+
+/*-----------------------------------
+Small laptop
+-----------------------------------*/
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .nav-link {
+    font-size: 0.8em !important;
+  }
+  .col-md-11 {
+    width: 100%;
+  }
+  
+  .tab-pane img {
+    width: 80%;
+    height: auto;
+    float: left;
+  }
+  .nav-pills .nav-link {
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 45px;
+  }
+  
+  .accordion-button {
+    padding: 0.8em;
+  }
+  #beneficios .card {
+    min-height: 525px;
+  }
+  
+}
+
+
+/*-----------------------------------
+Big desktop
+-----------------------------------*/
+@media only screen and (min-width: 2550px) {
+  #beneficios .card {
+    min-height: 400px;
+  }
+}
+
+/*--------IPADS*/
+@media only screen and (min-width: 750px) and (max-width: 1025px) {
+  
+  
+  .nav-link {
+    font-size: 0.8em !important;
+  }
+  .BeneBox {
+    width: 50% !important;
+    margin-bottom: 2em;
+  }
+  .img-car {
+    top: -37%;
+    width: 30%;
+    margin-left: 1em;
+  }
+ 
+  .col-md-4 {
+    width: 50%;
+  }
+  .tab-pane img {
+    width: 100%;
+    height: auto;
+  }
+  .nav-pills .nav-link {
+    margin-top: 5px;
+    padding: 5px 20px 5px 30px !important;
+  }
+  .Ademas h2 {
+    padding-top: 2em;
+  }
+  h2.Titulares {
+    font-size: 1.2em;
+  }
+  .TextoCierre {
+    width: 90%;
+  }
+  .TextoCierre p {
+    font-size: 1em;
+  }
+
+}
